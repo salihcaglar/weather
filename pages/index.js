@@ -27,7 +27,7 @@ export default function Home() {
     return <Spinner />
   }
 
-  const url =`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=${process.env.NEXT_PUBLIC_WEATHER_KEY}`
+  const url =`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=${process.env.local.charAtNEXT_PUBLIC_WEATHER_KEY}`
   return (
     <>
       <Head>
